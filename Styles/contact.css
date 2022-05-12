@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+header{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 60px;
+	background-color: #1a1717;
+    color: white;
+    opacity: 90%;
+}
+a {
+    background-color: white;
+    color: rgb(146, 11, 11);
+    text-decoration: none;
+    padding: 2px 2px;
+    border: none;
+    border-radius: 1.5rem;
+    height: 50px;
+}
+
+
+header img{
+	height: 50px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 5px;
+    padding-left: 150px;
+}
+header nav{
+	width: 500px;
+}
+
+header ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 60px;
+	list-style-type: none;
+    padding-right: 50px;
+    
+}
+main{
+    display: flex;
+    margin-top: 50px;
+    background-color: teal;
+    background-size: cover;
+    position: relative;
+}
+
+
+.text-block{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    justify-content: center;
+    top: 50px;
+    left: 150px;
+    background-color: #e7e7e7;
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.image{
+    border: solid 1px black;
+}
+.textImg{
+    display: flex;
+}
+
+
+.formTable{
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 600px;
+    background-color: #e7e7e7;
+    color: rgb(0, 0, 0);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #326f60;
+    border: none;
+    color: white;
+    padding: 0px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: center;
+    align-content: center;
+}
+.contactsFirst{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4px;
+    margin-right: 100px;
+    align-content: center;
+
+}
+.contactsSecond{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4px;
+    margin-right: 100px;
+    align-content: center;
+
+}
+
+footer{
+    display: flex;
+    height: 60px;
+    background-color: #1a1717;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}

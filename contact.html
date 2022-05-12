@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles/normalize.css">
+    <link rel="stylesheet" href="Styles/spacing.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Images/Logo.png">
+        </div>
+        <nav class="links" >
+            <ul>
+                <li><a href="index.html">Back</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artvatars.html">Artvatars</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="height:90vh">
+        <div>
+            <form class="formTable" action="/action_page.php">
+                <h1>Contact our team!</h1>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" value="Your name" style="width: 60%"><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" value="mail@mail.com" style="width: 60%"><br><br>
+                
+                <label for="number">NFT number: (optional)</label><br>
+                <input type="number" id="number" name="number" min="01" max="99" pattern="[0-9]{2}" value="12345678" style="width: 60%"><br><br>
+                
+                <label for="text">Message:</label><br>
+                <textarea name="comment" form="usrform" style="width: 60%; height:50px">Enter message here...</textarea><br>
+
+                <input type="submit" value="Send" style="height: 30px; width: 100px; ">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            Copyright © Liudvikas Bielskus 2021. All rights reserved.
+        </div>
+    </footer>
+    
+</body>
+</html>
